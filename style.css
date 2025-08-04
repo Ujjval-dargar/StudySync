@@ -503,6 +503,7 @@ body {
 .contact-footer a {
     color: var(--link-color);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /* ------------------------------------------------------------ */
@@ -683,4 +684,5 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
