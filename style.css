@@ -546,6 +546,7 @@ body {
 }
 
 .footer-title {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -574,6 +575,10 @@ body {
     display: flex;
     flex-direction: row;
     gap: 0.8rem;
+}
+
+.footer-icon {
+    cursor: pointer;
 }
 
 .footer-list-cards {
@@ -605,6 +610,7 @@ body {
 .footer-list-item {
     color: rgb(119, 119, 119);
     font-size: 0.9rem;
+    cursor: pointer;
 }
 
 .footer-section-2 {
