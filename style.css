@@ -437,6 +437,11 @@ body {
     position: absolute;
     inset: 0px;
     overflow: hidden;
+    transition: all 200ms;
+}
+
+.contact-image img:hover {
+    transform: perspective(0px) translateZ(0.02px);
 }
 
 .contact-details {
@@ -684,5 +689,4 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
